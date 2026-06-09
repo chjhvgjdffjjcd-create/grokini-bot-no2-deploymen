@@ -1241,17 +1241,16 @@ async function showMainMenu(ctx, edit = false) {
     : `💼 *Wallet ${session.activeWalletIndex + 1}/${session.wallets.length}*\n\`${shortenAddress(wallet.publicKey)}\`\n💰 ${balance?.toFixed(4) || '?'} SOL ${solPrice ? `($${usdValue.toFixed(2)})` : ''} ${errMsg}`;
 
   const text = `
-🚀 *Welcome to Trojan* 
+👋 *Welcome to Trojan* 
 
-I'm your Web3 execution engine.
+im your Web3 execution engine ⚡
 ━━━━━━━━━━━━━━━━━━
 *What I do for you:* ⬇️
-📊 Scan the market to tell you what to buy, ignore, or stalk
-🎯 Execute entries & exits with sniper-level timing
-🧠 Detect traps, fake pumps, and incoming dumps before they hit
-⚡ Operate at machine-speed — no lag, no emotion
-🔒 Secured with Bitcoin-grade architecture
-🚀 Track price action past your take-profit so winners keep running 🏃
+🚨 Real-time pump detection
+💳 Instant wallet alerts
+🎯 Auto TP/SL management
+🤖 Smart trade execution
+💸 Save 10% on fees - Use referral link
 ━━━━━━━━━━━━━━━━━━
 ${walletLine}
 
